@@ -58,7 +58,7 @@
     <bpmn:startEvent id="TimeOffNeededStartEvent" name="Congés nécessaires">
       <bpmn:outgoing>Flow_15yg3k5</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:userTask id="RequestAbsenceTask" name="Demander une absence">
+    <bpmn:userTask id="RequestAbsenceTask" name="Demander une absence XXX">
       <bpmn:documentation>Cette tâche utilise un formulaire Camunda (voir ci-dessous). Les formulaires peuvent être créés dans le Modeler. Pour lier un formulaire à une tâche utilisateur, sa définition JSON est copiée dans la configuration correspondante ci-dessous. Lors de l'exécution du processus, les utilisateurs peuvent utiliser la liste des tâches Camunda pour visualiser et modifier les données via ce formulaire.</bpmn:documentation>
       <bpmn:extensionElements>
         <zeebe:taskDefinition type="test-worker" retries="1" />
